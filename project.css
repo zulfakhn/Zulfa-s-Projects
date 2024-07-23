@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    background-color: #ffffff;
+      
+}
+
+.logo a {
+    margin-left: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo a:hover, nav a:hover {
+    color: #0060A5;
+}
+
+main {
+    height: 2160px;
+}
+
+#intro-projects {
+    height: 250px;
+    position: relative;
+    background: linear-gradient(#ffffff, #acd8f1);
+}
+
+#intro-projects h2 a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    text-decoration: none;
+    color: #0060A5;
+    font-size: 50px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal; 
+}
+
+#intro-projects h2 a:hover {
+    color: #8c94e2;
+}
+
+#kol-projects {
+    height: 500px;
+}
+
+.kol-projects-list {
+    height: 450px;
+    display: flex;
+    width: 1306px;
+    margin: 25px 20px;
+    border-radius: 20px; 
+    background-color: #ffffff;
+}
+
+.kol-projects-title {
+    margin: 40px;
+    color: #0060A5;
+    font-size: 30px;
+}
+
+.kol-projects-title h2{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+ 
+
+.kol-projects-title hr {
+    border: none;
+    width: 200px;
+    height: 5px;
+    background-color: #0060A5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.kol-projects-title button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 5px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(300deg, #b9eebc, #3297d6);
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.kol-projects-title a {
+    text-decoration: none;
+}
+
+
+.kol-projects-title button:hover {
+    transform: scale(1.05);
+}
+
+.kol-projects-title button img {
+    height: 15px;
+}
+
+.portfolio-kol {
+    height: 400px;
+    width: 500px;
+    margin: 20px 60px;
+    border: 1px black solid;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    
+}
+
+.portfolio-kol li {
+    text-align: right;
+    list-style-type: none;
+    width: auto;
+    margin: 34px;
+    font-size: 20px;
+    
+}
+
+.portfolio-kol li a {
+    text-decoration: none;
+    color: #0060A5;
+    margin: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.portfolio-kol li:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-kol li a:hover {
+    transform: scale(1.05);
+    color: #000;
+}
+
+
+
+#creative-production-projects {
+    height: 630px;
+    background: linear-gradient(#ffffff, #acd8f1);
+}
+
+#creative-production-projects h2 {
+   font-size: 30px;
+   text-align: center;
+   color: #0060A5;
+   font-weight: 600px;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 800;
+   font-style: normal;
+}
+
+#creative-production-projects p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    color: #0060A5;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#creative-production-projects p:hover {
+    transform: scale(1.05);
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 20px;
+}
+
+.card {
+    width: 20%;
+    height: 70vh;
+    margin: 0 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+video {
+
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        cursor: pointer;
+}
+
+#content-writer-projects {
+    height: 780px;
+    background: linear-gradient(#acd8f1, #b8d9ec);
+}
+
+#content-writer-projects h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px ;
+    color: #0060A5;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#content-writer-projects h4 {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    color: #0060A5;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 80px;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.news-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-15px);
+}
+
+.news-card img {
+    width: 100%;
+    height: 250px;
+}
+
+.news-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#content-writer-projects button {
+    background-color: white;
+    color: #A19A9A;
+    border: 1px white solid;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    margin-left: 600px;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#content-writer-projects button:hover span {
+    display: none;
+    
+}
+
+#content-writer-projects button:hover::before {
+    content: "Baca";
+    
+}
+
+#content-writer-projects button:hover {
+    background-color: #85bbe4;
+    border: none;
+    color: white;
+}
+
+footer {
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    background-color: #d6e2eb;
+}
+
+.info {
+    margin-right: 600px;
+}
+
+.info h2 {
+    font-size: 38px;
+    color: #0060A5;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.social-links {
+    margin-left: 50px;
+    margin-top: 34px;
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.social-links a:hover {
+    color: #0060A5;
+}
+
+
+
+footer p {
+    font-size: 15px;
+    padding-top: 130px;
+    padding-bottom: 11px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        height: 80px;
+    }
+
+    .logo a {
+        margin-left: 20;
+        font-size: 15px;
+    } 
+    nav a {
+        margin-right: 0px;
+        font-size: 15px;
+    }
+
+    main {
+        height: auto;
+    }
+    
+    #intro-projects {
+        height: 80px;
+    }
+    
+    #intro-projects h2 a {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    #kol-projects {
+        height: 200px;
+        width: 480px;
+        margin-bottom: 20px;
+    }
+    
+    .kol-projects-list {
+        height: 200px;
+        width: 480px;
+        margin: 5px 0px;
+    }
+    
+    .kol-projects-title {
+        margin-left: 25px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+    .kol-projects-title hr {
+        border: none;
+        width: 50px;
+        height: 2px;
+        
+    }
+    
+    .kol-projects-title button {
+        padding: 5px 10px;
+        font-size: 16px;
+        gap: 0px;
+        border-radius: 20px;
+        margin-top: 0px;
+        font-size: 10px;
+    
+    }
+    
+    .portfolio-kol {
+        height: 200px;
+        width: 200px;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    
+    .portfolio-kol li {
+        margin: 15px;
+        font-size: 14px;
+    }
+
+    #creative-production-projects {
+        height: 1750px;
+    }
+    
+    #creative-production-projects h2 {
+       font-size: 18px;
+    }
+    
+    #creative-production-projects p{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .card-container {
+        display: block;
+        margin: 10px;
+    }
+    
+    .card {
+        width: 50%;
+        height: 70vh;
+        margin: 30px 120px;
+    }
+    
+    #content-writer-projects {
+        height: 400px;
+        width: 480px;
+    }
+    
+    #content-writer-projects h2 {
+        padding-top: 10px ;
+        color: #0060A5;
+    }
+    
+    #content-writer-projects h4 {
+        padding: 5px;
+        color: #0060A5;
+    }
+    
+    
+    .news-container {
+        margin: 30px 50px;
+        gap: 10px;
+        width: 80%;
+        height: auto;
+    }
+    
+    
+    
+    .news-card img {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .news-title {
+        display: none;
+    
+    }
+    
+    #content-writer-projects button {
+        border-radius: 20px;
+        width: 80px;
+        height: 30px;
+        margin-left: 200px;
+        font-size: 10px;
+    }
+    
+    #content-writer-projects button:hover span {
+        display: none;
+        
+    }
+    
+    #content-writer-projects button:hover::before {
+        content: "Baca";
+        
+    }
+    
+    #content-writer-projects button:hover {
+        background-color: #85bbe4;
+        border: none;
+        color: white;
+    }
+
+
+    footer {
+        height: 100px;
+        width: 480px;
+        margin-top: 0px;
+    }
+    
+    .info {
+        margin-right: 90px;
+    }
+    
+    .info h2 {
+        font-size: 20px;
+        padding-top: 5px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .social-links {
+        margin-left: 20px;
+        margin-top: 10px;
+        
+    }
+    
+    .social-links a {
+        font-size: 12px;
+        margin-right: 5px;
+        
+    }
+    footer p {
+        font-size: 12px;
+        padding-top: 75px;
+        padding-bottom: 0px;
+    }
+}

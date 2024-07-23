@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.logo a {
+    margin-left: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-style: Bold;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+}
+
+.logo a:hover, nav a:hover {
+    color: #0060A5;
+}
+
+main {
+    height: 760px;
+}
+
+#collab-intro {
+    height: 180px;
+
+}
+
+#collab-intro h1 {
+    text-align: center;
+    padding: 50px;
+    color: #0060A5;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal; 
+      
+}
+
+
+#collab-form {
+    height: 600px;
+    background: linear-gradient(#ffffff, #acd8f1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2 {
+    font-weight: 600;
+    color: #0060A5;
+    font-size: 40px;
+    margin-bottom: 5px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;    
+}
+
+.contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #0060A5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #A19A9A;
+    border-radius: 50px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-left textarea {
+    height: 150px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 1px #0060A5 solid;
+}
+
+.contact-inputs::placeholder {
+    color: #0060A5;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 5px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(300deg, #b9eebc, #3297d6);
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.contact-left button:hover {
+    transform: scale(1.05);
+}
+
+.contact-left button img {
+    height: 15px;
+}
+
+.contact-right img {
+    width: 400px;
+}
+
+footer {
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    background-color: #d6e2eb;
+}
+
+.info {
+    margin-right: 600px;
+}
+
+.info h2 {
+    font-size: 38px;
+    color: #0060A5;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.social-links {
+    margin-left: 50px;
+    margin-top: 34px;
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    
+}
+
+.social-links a:hover {
+    color: #0060A5;
+}
+
+
+footer p {
+    font-size: 15px;
+    padding-top: 130px;
+    padding-bottom: 11px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        height: 80px;
+    }
+
+    .logo a {
+        margin-left: 20;
+        font-size: 15px;
+    } 
+    nav a {
+        margin-right: 0px;
+        font-size: 15px;
+    }
+
+    main {
+        height: auto;
+    }
+
+    #collab-intro {
+        height: 100px;
+    
+    }
+    
+    #collab-intro h1 {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    
+    #collab-form {
+        height: 500px;
+    
+    }
+    
+    .contact-left {
+        gap: 15px;
+        margin-left: 10px;
+        
+    }
+    
+    .contact-left-title h2 {
+        font-size: 30px;
+        
+    }
+    
+    .contact-left-title hr {
+        width: 90px;
+    }
+    
+    .contact-inputs {
+         font-weight: 300;
+    }
+    
+    .contact-left button {
+        font-size: 14px;
+    
+    }
+    
+    .contact-right img {
+        display: none;
+    }
+
+    footer {
+        height: 100px;
+        width: 480px;
+        margin-top: 0px;
+    }
+    
+    .info {
+        margin-right: 90px;
+    }
+    
+    .info h2 {
+        font-size: 20px;
+        padding-top: 5px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .social-links {
+        margin-left: 20px;
+        margin-top: 10px;
+        
+    }
+    
+    .social-links a {
+        font-size: 12px;
+        margin-right: 5px;
+        
+    }
+    footer p {
+        font-size: 12px;
+        padding-top: 75px;
+        padding-bottom: 0px;
+    }
+
+}

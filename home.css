@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    background-color: #ffffff;
+    
+   
+}
+
+.logo a {
+    margin-left: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.logo a:hover, nav a:hover {
+    color: #0060A5;
+}
+
+main {
+    height: 1960px;
+}
+
+#intro {
+    display: flex;
+    flex-wrap: wrap;
+    height: 470px;
+}
+
+.intro1 {
+    margin: 15px;
+    width: 900px;
+    height: 450px;
+    border: 1px #A19A9A solid;
+    border-radius: 20px; 
+}
+
+.intro1 h1 {
+    color: #0060A5;
+    margin-top: 35px;
+    margin-left: 35px;
+    padding: 5px;
+    line-height: 55px;
+    font-size: 48px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.intro1 p {
+    width: 300px;
+    height: 91px;
+    color: #A19A9A;
+    margin-left: 35px;
+    padding: 5px;
+    font-size: 25px;
+    text-align: justify;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+
+.contact button {
+    background-color: white;
+    color: #A19A9A;
+    border: 1px #A19A9A solid;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    margin-left: 35px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.contact button:hover span {
+    display: none;
+    
+}
+
+.contact button:hover::before {
+    content: "Collab with Me!";
+    
+}
+
+.contact button:hover {
+    background: linear-gradient(#ffffff, #acd8f1);
+    color: #0060A5;
+    border: none;
+}
+
+.contact-list {
+    margin-left: 35px;
+    margin-top: 12px;
+}
+
+.contact-list a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.contact-list a:hover {
+    color: #0060A5;
+}
+
+.fa-instagram, .fa-whatsapp {
+    margin-left: 40px;
+}
+
+.intro2 {
+    background: linear-gradient(#ffffff, #acd8f1);
+    border-radius: 20px;
+    margin: 15px;
+    width: 380px;
+    height: 450px;
+}
+
+.intro2 img {
+    margin-left: 20px;
+    width: 360px;
+    height: 450px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    height: 422px;
+    margin-bottom: 20px;
+
+}
+
+.projects1 {
+    height: 400px;
+    margin: 15px;
+    width: 600px;
+    border: none;
+    border-radius: 20px; 
+    background: linear-gradient(#ffffff, #acd8f1);
+}
+
+.projects1 h2 {
+    text-align: right;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 30px;
+    font-size: 40px;
+    color: #0060A5;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    
+    
+}
+
+.projects2 {
+    height: 400px;
+    margin: 15px;
+    width: 680px;
+}
+
+.projectslist {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 125px;
+    width: 680;
+    border: 1px #A19A9A solid;
+    border-radius: 20px; 
+}
+
+.projectslist a {
+    text-decoration: none;
+    color: black;
+}
+
+.projectslist a:hover {
+    color: #0060A5;
+}
+
+.projectslist h3 {
+    padding: 20px;
+    justify-content: flex-start;
+    width: 200px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.projectslist p {
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 0px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.profile {
+    display: flex;
+    height: 430px;
+    width: 1306px;
+    margin-left: 15px;
+    border: 1px #A19A9A solid;
+    border-radius: 20px; 
+    background-color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.profile h4 {
+    padding: 80px;
+    margin-right: 420px;
+}
+
+.profile p {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 70px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+#service {
+    height: 620px;
+    width: 1306px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-service {
+    padding: 30px 40px;
+    width: 400px;
+
+}
+
+.intro-service h2 {
+    font-size: 85px;
+    margin-bottom: 20px ;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.intro-service h2 i {
+    color: #0060A5;
+    
+}
+
+.table-service {
+    margin: 25px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    padding: 10px;
+    margin: 10px;
+}
+
+.cards1, .cards2, .cards3, .cards4, .cards5, .cards6, .cards7, .cards8{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    height: 60px;
+    width: 300px;
+    border-radius: 30px;
+    align-content: center;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cards1:hover, .cards2:hover, .cards3:hover, .cards4:hover, .cards5:hover, .cards6:hover, .cards7:hover, .cards8:hover {
+    color: #ffffff ;
+}
+
+.cards1, .cards7{
+     background-color: #E7A0A0;
+}
+
+.cards2, .cards8{
+    background-color: #D399E8;
+}
+
+.cards3, .cards6{
+    background-color: #EAEC92;
+}
+
+.cards4, .cards5{
+    background-color: #8CC6E7;
+}
+
+footer {
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    background-color: #d6e2eb;
+}
+
+.info {
+    margin-right: 600px;
+}
+
+.info h2 {
+    font-size: 38px;
+    color: #0060A5;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.social-links {
+    margin-left: 50px;
+    margin-top: 34px;
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.social-links a:hover {
+    color: #0060A5;
+}
+
+
+
+footer p {
+    font-size: 15px;
+    padding-top: 130px;
+    padding-bottom: 11px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@media (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        height: 80px;
+    }
+
+    .logo a {
+        margin-left: 20;
+        font-size: 15px;
+    } 
+    nav a {
+        margin-right: 0px;
+        font-size: 15px;
+    }
+
+    main {
+        height: 980px;
+    }
+
+
+    #intro {
+        height: 200px;
+    }
+    .intro1 {
+        margin: 10px;
+        width: 100%;
+        height: 180px;
+    }
+
+    .intro1 h1 {
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px;
+        line-height: 20px;
+        font-size: 18px;
+    }
+
+    .intro1 p {
+        height: 50px;
+        width: 200px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .contact {
+        margin-top: 20px;
+      }
+
+    .contact button {
+        border-radius: 20px;
+        width: 60px;
+        height: 20px;
+        margin-left: 15px;
+        padding: 3px;
+        font-size: 11px;
+    }
+
+    .contact-list {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    
+    .contact-list a {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .intro2 {
+        display: none;
+    }
+
+    #projects {
+        display: block;
+        height: 270px;
+        width: 480px;
+    }
+
+    .projects1 {
+        width: 460px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    
+    .projects1 h2 {
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 20px;
+        color: #0060A5;
+    }
+
+    .projects2 {
+        height: 20px;
+        margin-left: 20px;
+        width: 400px;
+    }
+
+    .projectslist {
+        height: 60px;
+        width: 440px;
+     }
+    
+    .projectslist a {
+        margin-top: 5px;
+    }
+    
+    .projectslist h3 {
+        padding: 10px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    
+    .projectslist p {
+        font-size: 10px;
+    }
+
+    .profile {
+        display: flex;
+        height: 200px;
+        width: 440px;
+        margin-left: 20px;
+    }
+    
+    .profile h4 {
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    
+    .profile p {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    #service {
+        height: 290px;
+        width: 480px;
+        display: block;
+    }
+    
+    .intro-service {
+        margin: 0px;
+        padding: 10px;
+        width: 100%;
+    
+    }
+    
+    .intro-service h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 0px ;
+    }
+    
+    .table-service {
+        padding: 10px;
+        justify-content: center;
+        margin-left: 5px;
+        margin-right: 0px;
+        margin-bottom: 0;
+        margin-top: 0;
+        width: 410px;
+    }
+
+    .cards1, .cards2, .cards3, .cards4, .cards5, .cards6, .cards7, .cards8{
+        margin-top: 0px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+        height: 30px;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    footer {
+        height: 100px;
+        width: 480px;
+        margin-top: 10px;
+    }
+    
+    .info {
+        margin-right: 90px;
+    }
+    
+    .info h2 {
+        font-size: 20px;
+        padding-top: 5px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .social-links {
+        margin-left: 20px;
+        margin-top: 10px;
+        
+    }
+    
+    .social-links a {
+        font-size: 12px;
+        margin-right: 5px;
+        
+    }
+    footer p {
+        font-size: 12px;
+        padding-top: 75px;
+        padding-bottom: 0px;
+    }
+}
+
