@@ -30,6 +30,6 @@ I created a personal portfolio website to showcase my digital marketing skills a
 2. **Form Integration**
 
 ## How I Overcame the Challenges
-1. **Design**: I utilized a design framework (like Figma) to maintain a consistent layout and style across all pages. I also created a style guide to ensure uniformity in fonts, colors, and spacing.
+1. **Design**: I use Figma as a design tool to maintain a consistent layout and style across all pages. I also created a style guide to ensure uniformity in fonts, colors, and spacing.
 3. **Form Integration**: I'm looking for a tutorial on creating a form that can be connected to Gmail on YouTube. Then I combined the learnings I learned in Skodev and on YouTube to create a functional collaboration form.
 
